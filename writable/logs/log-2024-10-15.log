@@ -1,0 +1,1914 @@
+INFO - 2024-10-15 00:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-15 00:01:03 --> CSRF token verified.
+INFO - 2024-10-15 00:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-15 00:01:15 --> CSRF token verified.
+INFO - 2024-10-15 00:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-15 00:04:38 --> CSRF token verified.
+INFO - 2024-10-15 00:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-15 00:12:56 --> CSRF token verified.
+INFO - 2024-10-15 00:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-15 00:14:02 --> CSRF token verified.
+INFO - 2024-10-15 00:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-15 00:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-15 00:49:48 --> CSRF token verified.
+INFO - 2024-10-15 00:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-15 00:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-15 00:52:09 --> CSRF token verified.
+INFO - 2024-10-15 00:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-15 00:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-15 00:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-15 00:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-15 00:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-15 00:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-15 00:55:48 --> CSRF token verified.
+INFO - 2024-10-15 00:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-15 00:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-15 00:57:04 --> CSRF token verified.
+INFO - 2024-10-15 00:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-15 00:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-15 00:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-15 00:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-15 00:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-15 01:27:11 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for mail.example.com failed: Host desconocido.  in C:\xampp\htdocs\proyecto\system\Email\Email.php:1901
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\xampp\\htdocs...', 1901)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1901): fsockopen('mail.example.co...', 587, NULL, NULL, 5)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(22): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 01:27:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 01:27:11 --> 
+INFO - 2024-10-15 01:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-15 01:28:02 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for mail.example.com failed: Host desconocido.  in C:\xampp\htdocs\proyecto\system\Email\Email.php:1901
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\xampp\\htdocs...', 1901)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1901): fsockopen('mail.example.co...', 587, NULL, NULL, 5)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(22): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 01:28:02 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 01:28:02 --> 
+ERROR - 2024-10-15 01:43:01 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(22): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 01:43:01 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 01:43:01 --> 220 smtp.gmail.com ESMTP 00721157ae682-6e3c5d26561sm1653097b3.121 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:a1e4:e865:a2e:e8ed]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 01:52:51 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(22): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 01:52:51 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 01:52:51 --> 220 smtp.gmail.com ESMTP 00721157ae682-6e3c5b875b5sm1714807b3.72 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:a1e4:e865:a2e:e8ed]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 01:55:55 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(22): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 01:55:55 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 01:55:55 --> 220 smtp.gmail.com ESMTP 00721157ae682-6e3ca250e0asm857017b3.34 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:a1e4:e865:a2e:e8ed]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 02:16:20 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #154, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(22): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 02:16:20 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 02:16:20 --> 220 smtp.gmail.com ESMTP 00721157ae682-6e3c5b87612sm1772147b3.70 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:a1e4:e865:a2e:e8ed]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 02:16:25 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(22): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 02:16:25 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 02:16:25 --> 220 smtp.gmail.com ESMTP 3f1490d57ef6-e296cc222a5sm155653276.37 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:a1e4:e865:a2e:e8ed]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 02:19:31 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(22): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 02:19:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 02:19:31 --> 220 smtp.gmail.com ESMTP 00721157ae682-6e3c5cbdf9esm1754247b3.79 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:a1e4:e865:a2e:e8ed]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+INFO - 2024-10-15 02:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-15 02:20:15 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(22): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 02:20:15 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 02:20:15 --> 220 smtp.gmail.com ESMTP 00721157ae682-6e3c5d2601asm1771227b3.110 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:a1e4:e865:a2e:e8ed]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 02:27:41 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(22): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 02:27:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 02:27:41 --> 220 smtp.gmail.com ESMTP 00721157ae682-6e3c5b3ce64sm1826187b3.42 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:a1e4:e865:a2e:e8ed]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+INFO - 2024-10-15 02:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-15 02:28:01 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(22): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 02:28:01 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 02:28:01 --> 220 smtp.gmail.com ESMTP 00721157ae682-6e3c5b420e9sm1799717b3.57 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:a1e4:e865:a2e:e8ed]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 02:36:13 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(22): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 02:36:13 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 02:36:13 --> 220 smtp.gmail.com ESMTP 00721157ae682-6e3c5ae1904sm1790147b3.20 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:a1e4:e865:a2e:e8ed]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 02:40:31 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(22): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 02:40:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 02:40:31 --> 220 smtp.gmail.com ESMTP 00721157ae682-6e3c5b3cf85sm1832447b3.46 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:a1e4:e865:a2e:e8ed]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 02:48:06 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(22): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 02:48:06 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 02:48:06 --> 220 smtp.gmail.com ESMTP 3f1490d57ef6-e296cc088a9sm162186276.16 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:a1e4:e865:a2e:e8ed]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 02:49:07 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(22): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 02:49:07 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 02:49:07 --> 220 smtp.gmail.com ESMTP 00721157ae682-6e3c5add1a2sm1870097b3.3 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:a1e4:e865:a2e:e8ed]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 02:51:26 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(22): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 02:51:26 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 02:51:26 --> 220 smtp.gmail.com ESMTP 3f1490d57ef6-e296cc1f08fsm174145276.32 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:a1e4:e865:a2e:e8ed]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 02:52:23 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(22): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 02:52:23 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 02:52:23 --> 220 smtp.gmail.com ESMTP 00721157ae682-6e3c5cbddfesm1851597b3.99 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:a1e4:e865:a2e:e8ed]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 02:53:28 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(22): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 02:53:28 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 02:53:28 --> 220 smtp.gmail.com ESMTP 00721157ae682-6e3c5b51d9asm1874197b3.54 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:a1e4:e865:a2e:e8ed]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 02:53:41 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(22): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 02:53:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 02:53:41 --> 220 smtp.gmail.com ESMTP 00721157ae682-6e3c5b86dcfsm1831057b3.63 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:a1e4:e865:a2e:e8ed]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 02:56:40 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1901
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp\\htdocs...', 1901)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1901): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 10)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(22): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 02:56:40 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 02:56:40 --> 
+ERROR - 2024-10-15 03:04:32 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(22): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 03:04:32 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 03:04:32 --> 220 smtp.gmail.com ESMTP 00721157ae682-6e3c5b420e9sm1893647b3.57 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:a1e4:e865:a2e:e8ed]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 03:06:07 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(22): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 03:06:07 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 03:06:07 --> 220 smtp.gmail.com ESMTP 00721157ae682-6e3c5d26544sm1877107b3.114 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:a1e4:e865:a2e:e8ed]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 03:10:13 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(22): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 03:10:13 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 03:10:13 --> 220 smtp.gmail.com ESMTP 00721157ae682-6e3c5cbdf9esm1883647b3.79 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:a1e4:e865:a2e:e8ed]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 03:14:22 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(29): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 03:14:22 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 03:14:22 --> 220 smtp.gmail.com ESMTP 00721157ae682-6e3c5d1f545sm1845777b3.105 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:a1e4:e865:a2e:e8ed]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 03:33:34 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(29): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 03:33:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 03:33:34 --> 220 smtp.gmail.com ESMTP 00721157ae682-6e3c5ae8752sm2019827b3.7 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:a1e4:e865:a2e:e8ed]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 03:33:42 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(29): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 03:33:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 03:33:42 --> 220 smtp.gmail.com ESMTP 00721157ae682-6e3c5b87612sm1977477b3.70 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:a1e4:e865:a2e:e8ed]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+INFO - 2024-10-15 15:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-15 15:01:39 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 15:01:39 --> 220 mail.smtp2go.com ESMTP Exim 4.97.1-S2G Tue, 15 Oct 2024 21:01:31 +0000
+
+hello: 250-mail.smtp2go.com Hello localhost [190.14.134.67]
+250-SIZE 52428800
+250-8BITMIME
+250-DSN
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH CRAM-MD5 PLAIN LOGIN
+250-CHUNKING
+250-STARTTLS
+250-PRDR
+250 HELP
+
+starttls: 220 TLS go ahead
+
+hello: 250-mail.smtp2go.com Hello localhost [190.14.134.67]
+250-SIZE 52428800
+250-8BITMIME
+250-DSN
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH CRAM-MD5 PLAIN LOGIN
+250-CHUNKING
+250-PRDR
+250 HELP
+
+from: 250 sender ok.
+
+to: 250 Accepted <smtpproyecto@gmail.com>
+
+data: 354 Enter message, ending with "." on a line by itself
+
+550-From header sender domain not verified (miumg.edu.gt)
+550-On your Sending > Verified Senders page
+550 verify the sender domain or email to be allowed to send.
+
+quit: 221 mail.smtp2go.com closing connection
+
+The following SMTP error was encountered: 550-From header sender domain not verified (miumg.edu.gt)
+550-On your Sending > Verified Senders page
+550 verify the sender domain or email to be allowed to send.
+
+ERROR - 2024-10-15 15:01:57 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 15:01:57 --> 220 mail.smtp2go.com ESMTP Exim 4.97.1-S2G Tue, 15 Oct 2024 21:01:52 +0000
+
+hello: 250-mail.smtp2go.com Hello localhost [190.14.134.67]
+250-SIZE 52428800
+250-8BITMIME
+250-DSN
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH CRAM-MD5 PLAIN LOGIN
+250-CHUNKING
+250-STARTTLS
+250-PRDR
+250 HELP
+
+starttls: 220 TLS go ahead
+
+hello: 250-mail.smtp2go.com Hello localhost [190.14.134.67]
+250-SIZE 52428800
+250-8BITMIME
+250-DSN
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH CRAM-MD5 PLAIN LOGIN
+250-CHUNKING
+250-PRDR
+250 HELP
+
+from: 250 sender ok.
+
+to: 250 Accepted <smtpproyecto@gmail.com>
+
+data: 354 Enter message, ending with "." on a line by itself
+
+550-From header sender domain not verified (miumg.edu.gt)
+550-On your Sending > Verified Senders page
+550 verify the sender domain or email to be allowed to send.
+
+quit: 221 mail.smtp2go.com closing connection
+
+The following SMTP error was encountered: 550-From header sender domain not verified (miumg.edu.gt)
+550-On your Sending > Verified Senders page
+550 verify the sender domain or email to be allowed to send.
+
+ERROR - 2024-10-15 15:16:22 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 15:16:22 --> 220 mail.smtp2go.com ESMTP Exim 4.97.1-S2G Tue, 15 Oct 2024 21:16:20 +0000
+
+hello: 250-mail.smtp2go.com Hello localhost [190.14.134.67]
+250-SIZE 52428800
+250-8BITMIME
+250-DSN
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH CRAM-MD5 PLAIN LOGIN
+250-CHUNKING
+250-STARTTLS
+250-PRDR
+250 HELP
+
+starttls: 220 TLS go ahead
+
+hello: 250-mail.smtp2go.com Hello localhost [190.14.134.67]
+250-SIZE 52428800
+250-8BITMIME
+250-DSN
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH CRAM-MD5 PLAIN LOGIN
+250-CHUNKING
+250-PRDR
+250 HELP
+
+from: 250 sender ok.
+
+to: 250 Accepted <smtpproyecto@gmail.com>
+
+data: 354 Enter message, ending with "." on a line by itself
+
+550-From header sender domain not verified (miumg.edu.gt)
+550-On your Sending > Verified Senders page
+550 verify the sender domain or email to be allowed to send.
+
+quit: 221 mail.smtp2go.com closing connection
+
+The following SMTP error was encountered: 550-From header sender domain not verified (miumg.edu.gt)
+550-On your Sending > Verified Senders page
+550 verify the sender domain or email to be allowed to send.
+
+ERROR - 2024-10-15 15:16:30 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 15:16:30 --> 220 mail.smtp2go.com ESMTP Exim 4.97.1-S2G Tue, 15 Oct 2024 21:16:28 +0000
+
+hello: 250-mail.smtp2go.com Hello localhost [190.14.134.67]
+250-SIZE 52428800
+250-8BITMIME
+250-DSN
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH CRAM-MD5 PLAIN LOGIN
+250-CHUNKING
+250-STARTTLS
+250-PRDR
+250 HELP
+
+starttls: 220 TLS go ahead
+
+hello: 250-mail.smtp2go.com Hello localhost [190.14.134.67]
+250-SIZE 52428800
+250-8BITMIME
+250-DSN
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH CRAM-MD5 PLAIN LOGIN
+250-CHUNKING
+250-PRDR
+250 HELP
+
+from: 250 sender ok.
+
+to: 250 Accepted <smtpproyecto@gmail.com>
+
+data: 354 Enter message, ending with "." on a line by itself
+
+550-From header sender domain not verified (miumg.edu.gt)
+550-On your Sending > Verified Senders page
+550 verify the sender domain or email to be allowed to send.
+
+quit: 221 mail.smtp2go.com closing connection
+
+The following SMTP error was encountered: 550-From header sender domain not verified (miumg.edu.gt)
+550-On your Sending > Verified Senders page
+550 verify the sender domain or email to be allowed to send.
+
+ERROR - 2024-10-15 15:18:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 15:18:11 --> 220 mail.smtp2go.com ESMTP Exim 4.97.1-S2G Tue, 15 Oct 2024 21:18:09 +0000
+
+hello: 250-mail.smtp2go.com Hello localhost [190.14.134.67]
+250-SIZE 52428800
+250-8BITMIME
+250-DSN
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH CRAM-MD5 PLAIN LOGIN
+250-CHUNKING
+250-STARTTLS
+250-PRDR
+250 HELP
+
+starttls: 220 TLS go ahead
+
+hello: 250-mail.smtp2go.com Hello localhost [190.14.134.67]
+250-SIZE 52428800
+250-8BITMIME
+250-DSN
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH CRAM-MD5 PLAIN LOGIN
+250-CHUNKING
+250-PRDR
+250 HELP
+
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+ERROR - 2024-10-15 15:19:13 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 15:19:13 --> 220 mail.smtp2go.com ESMTP Exim 4.97.1-S2G Tue, 15 Oct 2024 21:19:12 +0000
+
+hello: 250-mail.smtp2go.com Hello localhost [190.14.134.67]
+250-SIZE 52428800
+250-8BITMIME
+250-DSN
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH CRAM-MD5 PLAIN LOGIN
+250-CHUNKING
+250-STARTTLS
+250-PRDR
+250 HELP
+
+starttls: 220 TLS go ahead
+
+hello: 250-mail.smtp2go.com Hello localhost [190.14.134.67]
+250-SIZE 52428800
+250-8BITMIME
+250-DSN
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH CRAM-MD5 PLAIN LOGIN
+250-CHUNKING
+250-PRDR
+250 HELP
+
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+ERROR - 2024-10-15 15:20:19 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 15:20:19 --> 220 mail.smtp2go.com ESMTP Exim 4.97.1-S2G Tue, 15 Oct 2024 21:20:17 +0000
+
+hello: 250-mail.smtp2go.com Hello localhost [190.14.134.67]
+250-SIZE 52428800
+250-8BITMIME
+250-DSN
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH CRAM-MD5 PLAIN LOGIN
+250-CHUNKING
+250-STARTTLS
+250-PRDR
+250 HELP
+
+starttls: 220 TLS go ahead
+
+hello: 250-mail.smtp2go.com Hello localhost [190.14.134.67]
+250-SIZE 52428800
+250-8BITMIME
+250-DSN
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH CRAM-MD5 PLAIN LOGIN
+250-CHUNKING
+250-PRDR
+250 HELP
+
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+ERROR - 2024-10-15 15:22:59 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(26): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\Home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 15:23:00 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 15:23:00 --> 220 mail.smtp2go.com ESMTP Exim 4.97.1-S2G Tue, 15 Oct 2024 21:22:58 +0000
+
+hello: 250-mail.smtp2go.com Hello localhost [190.14.134.67]
+250-SIZE 52428800
+250-8BITMIME
+250-DSN
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH CRAM-MD5 PLAIN LOGIN
+250-STARTTLS
+250-PRDR
+250 HELP
+
+starttls: 220 TLS go ahead
+
+ERROR - 2024-10-15 15:44:08 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(26): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\Home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 15:44:08 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 15:44:08 --> 220 mail.smtp2go.com ESMTP Exim 4.97.1-S2G Tue, 15 Oct 2024 21:44:06 +0000
+
+hello: 250-mail.smtp2go.com Hello localhost [190.14.134.67]
+250-SIZE 52428800
+250-8BITMIME
+250-DSN
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH CRAM-MD5 PLAIN LOGIN
+250-STARTTLS
+250-PRDR
+250 HELP
+
+starttls: 220 TLS go ahead
+
+ERROR - 2024-10-15 15:44:15 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(26): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\Home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 15:44:15 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 15:44:15 --> 220 mail.smtp2go.com ESMTP Exim 4.97.1-S2G Tue, 15 Oct 2024 21:44:14 +0000
+
+hello: 250-mail.smtp2go.com Hello localhost [190.14.134.67]
+250-SIZE 52428800
+250-8BITMIME
+250-DSN
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH CRAM-MD5 PLAIN LOGIN
+250-STARTTLS
+250-PRDR
+250 HELP
+
+starttls: 220 TLS go ahead
+
+ERROR - 2024-10-15 16:32:09 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(26): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\Home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 16:32:09 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 16:32:09 --> 220 smtp.gmail.com ESMTP a1e0cc1a2514c-85031b07dd4sm318774241.28 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:d184:9a3d:96a4:2755]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 16:32:14 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(26): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\Home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 16:32:14 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 16:32:14 --> 220 smtp.gmail.com ESMTP 71dfb90a1353d-50d7b01ca84sm322328e0c.32 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:d184:9a3d:96a4:2755]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 16:36:59 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(26): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\Home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 16:36:59 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 16:36:59 --> 220 smtp.gmail.com ESMTP a1e0cc1a2514c-850318be656sm326432241.23 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:d184:9a3d:96a4:2755]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 16:50:17 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(26): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\Home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 16:50:17 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 16:50:17 --> 220 smtp.gmail.com ESMTP 71dfb90a1353d-50d7b2a7ef3sm325063e0c.43 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:d184:9a3d:96a4:2755]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 16:58:08 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(26): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\Home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 16:58:08 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 16:58:08 --> 220 smtp.gmail.com ESMTP ada2fe7eead31-4a5acc49adasm321433137.12 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:d184:9a3d:96a4:2755]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 16:58:43 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(26): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\Home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 16:58:43 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 16:58:43 --> 220 smtp.gmail.com ESMTP 71dfb90a1353d-50d7b2a57d0sm328932e0c.39 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:d184:9a3d:96a4:2755]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 16:59:21 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(26): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\Home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 16:59:21 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 16:59:21 --> 220 smtp.gmail.com ESMTP a1e0cc1a2514c-85031b11f7csm312107241.31 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:d184:9a3d:96a4:2755]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 17:04:38 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #154, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(26): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\Home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 17:04:38 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 17:04:38 --> 220 smtp.gmail.com ESMTP ada2fe7eead31-4a5acf045dfsm338096137.28 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:d184:9a3d:96a4:2755]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 17:08:39 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(18): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 17:08:39 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 17:08:39 --> 220 smtp.gmail.com ESMTP 71dfb90a1353d-50d7adda321sm336499e0c.16 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:d184:9a3d:96a4:2755]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 17:09:36 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(18): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 17:09:36 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 17:09:36 --> 220 smtp.gmail.com ESMTP 71dfb90a1353d-50d7b2a5109sm332259e0c.38 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:d184:9a3d:96a4:2755]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 17:15:06 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(18): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 17:15:06 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 17:15:06 --> 220 smtp.gmail.com ESMTP 71dfb90a1353d-50d7b301967sm332188e0c.56 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:d184:9a3d:96a4:2755]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 17:15:34 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(18): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 17:15:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 17:15:34 --> 220 smtp.gmail.com ESMTP 71dfb90a1353d-50d7aaca1b0sm334944e0c.7 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:d184:9a3d:96a4:2755]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 17:16:24 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(18): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 17:16:24 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 17:16:24 --> 220 smtp.gmail.com ESMTP 71dfb90a1353d-50d7aacad35sm359642e0c.5 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:d184:9a3d:96a4:2755]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 17:25:13 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(18): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 17:25:13 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 17:25:13 --> 220 smtp.gmail.com ESMTP 71dfb90a1353d-50d7b2a57dbsm337812e0c.41 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:d184:9a3d:96a4:2755]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 17:34:35 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(18): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 17:34:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 17:34:35 --> 220 smtp.gmail.com ESMTP 71dfb90a1353d-50d7b2d7ee8sm337535e0c.49 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:d184:9a3d:96a4:2755]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 17:40:25 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1901
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp\\htdocs...', 1901)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1901): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 10)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(18): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 17:40:25 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 17:40:25 --> 
+ERROR - 2024-10-15 17:41:10 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1901
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp\\htdocs...', 1901)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1901): fsockopen('tls://smtp.gmai...', 465, NULL, NULL, 10)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(18): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 17:41:10 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 17:41:10 --> 
+ERROR - 2024-10-15 18:08:31 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1901
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp\\htdocs...', 1901)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1901): fsockopen('tls://smtp.gmai...', 465, NULL, NULL, 10)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(18): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 18:08:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 18:08:31 --> 
+ERROR - 2024-10-15 18:08:37 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1901
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp\\htdocs...', 1901)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1901): fsockopen('tls://smtp.gmai...', 465, NULL, NULL, 10)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(18): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 18:08:37 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 18:08:37 --> 
+ERROR - 2024-10-15 18:10:42 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(18): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 18:10:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 18:10:42 --> 220 smtp.gmail.com ESMTP 71dfb90a1353d-50d7b2a20a8sm351441e0c.34 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:d184:9a3d:96a4:2755]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 18:11:18 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 18:11:18 --> 220 smtp.gmail.com ESMTP 71dfb90a1353d-50d7aacad2asm374652e0c.4 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:d184:9a3d:96a4:2755]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+Failed to send AUTH LOGIN command. Error: 530-5.7.0 Must issue a STARTTLS command first. For more information, go to
+530-5.7.0  https://support.google.com/a/answer/3221692 and review RFC 3207
+530 5.7.0 specifications. 71dfb90a1353d-50d7aacad2asm374652e0c.4 - gsmtp
+
+ERROR - 2024-10-15 18:11:52 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(18): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 18:11:52 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 18:11:52 --> 220 smtp.gmail.com ESMTP a1e0cc1a2514c-8503184da12sm336074241.17 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:d184:9a3d:96a4:2755]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 18:27:37 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(18): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 18:27:37 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 18:27:37 --> 220 smtp.gmail.com ESMTP 71dfb90a1353d-50d7affcb24sm344529e0c.27 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:d184:9a3d:96a4:2755]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 18:33:39 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(18): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 18:33:39 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 18:33:39 --> 220 smtp.gmail.com ESMTP ada2fe7eead31-4a5acedd60bsm355600137.23 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:d184:9a3d:96a4:2755]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 18:36:15 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(18): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 18:36:15 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 18:36:15 --> 220 smtp.gmail.com ESMTP a1e0cc1a2514c-8503184f70esm346837241.18 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:d184:9a3d:96a4:2755]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 18:37:17 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 18:37:17 --> 220 smtp.gmail.com ESMTP ada2fe7eead31-4a5acd58000sm339985137.15 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:d184:9a3d:96a4:2755]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+Failed to send AUTH LOGIN command. Error: 530-5.7.0 Must issue a STARTTLS command first. For more information, go to
+530-5.7.0  https://support.google.com/a/answer/3221692 and review RFC 3207
+530 5.7.0 specifications. ada2fe7eead31-4a5acd58000sm339985137.15 - gsmtp
+
+ERROR - 2024-10-15 18:37:49 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(18): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 18:37:49 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 18:37:49 --> 220 smtp.gmail.com ESMTP 71dfb90a1353d-50d7b2a57d0sm352319e0c.39 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:d184:9a3d:96a4:2755]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 18:45:26 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(18): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 18:45:26 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 18:45:26 --> 220 smtp.gmail.com ESMTP 71dfb90a1353d-50d7aff0b2esm357852e0c.23 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:d184:9a3d:96a4:2755]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 20:51:14 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #154, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(18): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 20:51:14 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 20:51:14 --> 220 smtp.gmail.com ESMTP 71dfb90a1353d-50d7affcb24sm375320e0c.27 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:6821:c14c:e05f:5008]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2024-10-15 20:52:59 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\proyecto\system\Email\Email.php:1922
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1922)
+#1 C:\xampp\htdocs\proyecto\system\Email\Email.php(1922): stream_socket_enable_crypto(Resource id #152, true, 121)
+#2 C:\xampp\htdocs\proyecto\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\proyecto\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\proyecto\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\home.php(18): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(933): App\Controllers\home->testEmail()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\home))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\proyecto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\proyecto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-10-15 20:52:59 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-10-15 20:52:59 --> 220 smtp.gmail.com ESMTP a1e0cc1a2514c-85031868529sm387726241.21 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2803:d100:e7a0:2b2:6821:c14c:e05f:5008]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
